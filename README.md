@@ -1,7 +1,7 @@
-theme: jekyll-theme-minimal
+
 
 # Trevor Bluth
-
+theme: jekyll-theme-minimal
 <div style="display: flex; flex-direction: row;">
 
   <!-- Left Column -->
