@@ -1,4 +1,3 @@
-
 # Trevor Bluth
 
 <div style="display: flex; flex-direction: row;">
@@ -21,26 +20,29 @@
 
   <!-- Right Column -->
   <div style="width: 70%; padding: 30px;">
-    <h3 id="about-me" style="color: #0a0a23; font-size: 28px;">About Me</h3>
-    <p style="font-size: 18px; line-height: 1.6;">Hello! My name is Trevor Bluth. I hold a Bachelor's degree in Mathematics and Economics from Boston University and am currently pursuing a Master's in Computational Statistics and Machine Learning at University College London. With 2 years of work experience in data analytics, I am actively seeking opportunities in data science. I have a strong interest in statistics, machine learning, time series analysis, and financial applications.</p>
+    <h3 id="about-me">About Me</h3>
+    <p>Hi, I'm Trevor Bluth, a data analytics associate with a strong passion for data science, computational finance, and financial markets. I hold a bachelor's degree in Mathematics and Economics from Boston University, and I'm pursuing a master's in Computational Statistics and Machine Learning at UCL. My work involves using data to drive insights, develop models, and support decision-making in various domains.</p>
 
-    <h3 id="projects" style="color: #0a0a23; font-size: 28px;">Projects</h3>
-    <ul style="font-size: 18px; line-height: 1.6;">
+<h3 id="projects">Projects</h3>
+    <ul>
       <li><strong>Data Analytics & Visualization:</strong> Brief description of the project. [GitHub Repo](#) | [Live Demo](#)</li>
       <li><strong>Financial Modeling & Analysis:</strong> Brief description of the project. [GitHub Repo](#) | [Live Demo](#)</li>
       <li><strong>Time Series & Forecasting:</strong> Brief description of the project. [GitHub Repo](#) | [Live Demo](#)</li>
     </ul>
 
-    <h3 id="contact" style="color: #0a0a23; font-size: 28px;">Contact</h3>
-    <p style="font-size: 18px; line-height: 1.6;">I'm always open to discussing new projects, ideas, or opportunities. You can reach me via:</p>
-    <ul style="font-size: 18px; line-height: 1.6;">
+  <h3 id="contact">Contact</h3>
+    <p>I'm always open to discussing new projects, ideas, or opportunities. You can reach me via:</p>
+    <ul>
       <li><strong>Email:</strong> [trevorbluth@example.com](mailto:trevorbluth@example.com)</li>
       <li><strong>LinkedIn:</strong> [linkedin.com/in/trevorbluth](https://www.linkedin.com/in/trevorbluth)</li>
-      <li><strong>Twitter:</strong> [@trevorbluth](https://twitter.com/trevorbluth)</li>
     </ul>
   </div>
 
 </div>
+
+
+
+
 
 
 
