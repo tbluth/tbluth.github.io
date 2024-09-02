@@ -1,50 +1,46 @@
+
 # Trevor Bluth
 
-Welcome to my GitHub profile! Below, you can learn more about me, explore my projects, and find ways to get in touch.
+<div style="display: flex; flex-direction: row;">
 
-## Table of Contents
+  <!-- Left Column -->
+  <div style="width: 30%; padding: 20px; background: url('https://example.com/blue-binary-background.jpg') no-repeat center center; background-size: cover; color: white; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);">
+    <h2 style="text-align: center; margin-top: 40px;">Trevor Bluth</h2>
+    <ul style="list-style-type: none; padding: 0; margin-top: 50px;">
+      <li style="padding: 15px 0; text-align: center;">
+        <a href="#about-me" style="color: #add8e6; text-decoration: none; font-size: 20px; font-weight: bold;">About Me</a>
+      </li>
+      <li style="padding: 15px 0; text-align: center;">
+        <a href="#projects" style="color: #add8e6; text-decoration: none; font-size: 20px; font-weight: bold;">Projects</a>
+      </li>
+      <li style="padding: 15px 0; text-align: center;">
+        <a href="#contact" style="color: #add8e6; text-decoration: none; font-size: 20px; font-weight: bold;">Contact</a>
+      </li>
+    </ul>
+  </div>
 
-- [About Me](#about-me)
-- [Projects](#projects)
-- [Contact](#contact)
+  <!-- Right Column -->
+  <div style="width: 70%; padding: 30px;">
+    <h3 id="about-me" style="color: #0a0a23; font-size: 28px;">About Me</h3>
+    <p style="font-size: 18px; line-height: 1.6;">Hello! My name is Trevor Bluth. I hold a Bachelor's degree in Mathematics and Economics from Boston University and am currently pursuing a Master's in Computational Statistics and Machine Learning at University College London. With 2 years of work experience in data analytics, I am actively seeking opportunities in data science. I have a strong interest in statistics, machine learning, time series analysis, and financial applications.</p>
 
-## About Me
+    <h3 id="projects" style="color: #0a0a23; font-size: 28px;">Projects</h3>
+    <ul style="font-size: 18px; line-height: 1.6;">
+      <li><strong>Data Analytics & Visualization:</strong> Brief description of the project. [GitHub Repo](#) | [Live Demo](#)</li>
+      <li><strong>Financial Modeling & Analysis:</strong> Brief description of the project. [GitHub Repo](#) | [Live Demo](#)</li>
+      <li><strong>Time Series & Forecasting:</strong> Brief description of the project. [GitHub Repo](#) | [Live Demo](#)</li>
+    </ul>
 
-Hello! My name is Trevor Bluth. I hold a Bachelor's degree in Mathematics and Economics from Boston University and am currently pursuing a Master's in Computational Statistics and Machine Learning at University College London. 
+    <h3 id="contact" style="color: #0a0a23; font-size: 28px;">Contact</h3>
+    <p style="font-size: 18px; line-height: 1.6;">I'm always open to discussing new projects, ideas, or opportunities. You can reach me via:</p>
+    <ul style="font-size: 18px; line-height: 1.6;">
+      <li><strong>Email:</strong> [trevorbluth@example.com](mailto:trevorbluth@example.com)</li>
+      <li><strong>LinkedIn:</strong> [linkedin.com/in/trevorbluth](https://www.linkedin.com/in/trevorbluth)</li>
+      <li><strong>Twitter:</strong> [@trevorbluth](https://twitter.com/trevorbluth)</li>
+    </ul>
+  </div>
 
-With 2 years of work experience in data analytics, I am actively seeking opportunities in data science. I have a strong interest in statistics, machine learning, time series analysis, and financial applications.
-
----
-
-## Projects
-
-### Data Analytics & Visualization
-
-- **Project Title**: Brief description of the project.
-  - [GitHub Repo](#) | [Live Demo](#)
-
----
-
-## Contact
-
- You can reach me via:
-
-- **Email**: [trevorbluth@example.com](mailto:trevorbluth@example.com)
-- **LinkedIn**: [linkedin.com/in/trevorbluth](https://www.linkedin.com/in/trevorbluth)
-- **Twitter**: [@trevorbluth](https://twitter.com/trevorbluth)
-
----
-
-<div align="center">
-    <a href="#about-me">
-        <img src="https://img.shields.io/badge/About%20Me-Dark%20Blue?style=for-the-badge" alt="About Me Badge">
-    </a>
-    <a href="#projects">
-        <img src="https://img.shields.io/badge/Projects-Dark%20Blue?style=for-the-badge" alt="Projects Badge">
-    </a>
-    <a href="#contact">
-        <img src="https://img.shields.io/badge/Contact-Dark%20Blue?style=for-the-badge" alt="Contact Badge">
-    </a>
 </div>
+
 
 
