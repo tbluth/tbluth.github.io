@@ -1,3 +1,5 @@
+theme: jekyll-theme-minimal
+
 # Trevor Bluth
 
 <div style="display: flex; flex-direction: row;">
