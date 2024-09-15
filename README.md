@@ -12,52 +12,43 @@
             margin: 0;
             padding: 0;
         }
-
-   header {
+header {
             background-color: #253a5a; /* Slightly lighter dark blue */
             color: white;
             padding: 20px;
             text-align: center;
         }
-
-  .container {
+ .container {
             max-width: 900px;
             margin: 0 auto;
             padding: 20px;
         }
-
   h1, h2, h3 {
             color: #d0d3e2;
         }
-
-  .about, .section {
+.about, .section {
             background-color: #2a3244;
             padding: 20px;
             margin-bottom: 20px;
             border-radius: 8px;
         }
-
-   .links {
+ .links {
             text-align: center;
             margin-top: 20px;
         }
-
-   .links a {
+ .links a {
             margin: 0 10px;
         }
-
-   .icon {
+ .icon {
             width: 30px;
             height: 30px;
             vertical-align: middle;
         }
-
-  a {
+a {
             color: #5aa6f2;
             text-decoration: none;
         }
-
-   a:hover {
+ a:hover {
             text-decoration: underline;
         }
     </style>
