@@ -12,51 +12,53 @@
             margin: 0;
             padding: 0;
         }
-header {
+        header {
             background-color: #253a5a; 
             color: white;
             padding: 20px;
             text-align: center;
         }
- .container {
+        .container {
             max-width: 900px;
             margin: 0 auto;
             padding: 20px;
         }
-  h1, h2, h3 {
+        h1, h2, h3 {
             color: #d0d3e2;
         }
-.about, .section {
+        .about, .section {
             background-color: #2a3244;
             padding: 20px;
             margin-bottom: 20px;
             border-radius: 8px;
         }
- .links {
+        .links {
             text-align: center;
             margin-top: 20px;
         }
- .links a {
+        .links a {
             margin: 0 10px;
+            text-decoration: none;
         }
- .icon {
-            width: 30px;
-            height: 30px;
-            vertical-align: middle;
+        .icon {
+            font-size: 30px;
+            color: #ffffff;
         }
-a {
+        a {
             color: #5aa6f2;
             text-decoration: none;
         }
- a:hover {
+        a:hover {
             text-decoration: underline;
         }
     </style>
+    <!-- Add Font Awesome CDN link here -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
 
 <header>
-    <h1>Trevor Bluth</h1>
+     <h1>Trevor Bluth</h1>
     <p>London, UK  •  +44 7435 256049  •  <a href="mailto:Trevorbluth4@gmail.com">Trevorbluth4@gmail.com</a>  •  <a href="https://www.linkedin.com/in/trevorjbluth/">LinkedIn</a></p>
 </header>
 
@@ -79,7 +81,7 @@ a {
             <li>Created and maintained comprehensive data documentation, ensuring consistency and clarity across all reporting processes.</li>
         </ul>
 
-  <h3>Centre for Mind and Culture | Boston, MA, USA</h3>
+ <h3>Centre for Mind and Culture | Boston, MA, USA</h3>
         <p><strong>Survey Data Analyst Intern</strong> | September 2022 - May 2023</p>
         <ul>
             <li>Collected raw data from 39 different surveys/censuses to design two customised databases focused on religious change in Norway, India, and the United States.</li>
@@ -95,7 +97,7 @@ a {
         <p><strong>Master of Science</strong>, Computational Statistics & Machine Learning | September 2024 - September 2025</p>
         <p>Coursework: Supervised and Unsupervised Learning, Deep Learning, Natural Language Processing, Quantitative Finance, Numerical Optimisation, Algorithmic Trading.</p>
 
-  <h3>Boston University | Boston, MA, USA</h3>
+<h3>Boston University | Boston, MA, USA</h3>
         <p><strong>Bachelor of Arts</strong>, Mathematics & Economics | September 2019 - May 2023</p>
         <p>Graduated cum laude (GPA 3.71, UK equivalent: First Class Honours).</p>
         <p>Coursework: Operations Research, Time Series, Econometrics, Financial Markets, Probability, Mathematical Statistics, Data Structures.</p>
@@ -108,10 +110,10 @@ a {
 
   <div class="links">
         <a href="https://github.com/tbluth" target="_blank">
-            <img class="icon" src="https://img.icons8.com/ios-filled/50/ffffff/github.png" alt="GitHub">
+            <i class="fab fa-github icon"></i>
         </a>
         <a href="https://www.linkedin.com/in/trevorjbluth/" target="_blank">
-            <img class="icon" src="https://img.icons8.com/ios-filled/50/ffffff/linkedin.png" alt="LinkedIn">
+            <i class="fab fa-linkedin icon"></i>
         </a>
     </div>
 </div>
