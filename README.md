@@ -8,12 +8,12 @@
         body {
             font-family: 'Arial', sans-serif;
             color: #f0f0f0;
-            background-color: #1a1d29; /* Dark blue background */
+            background-color: #1a1d29; 
             margin: 0;
             padding: 0;
         }
 header {
-            background-color: #253a5a; /* Slightly lighter dark blue */
+            background-color: #253a5a; 
             color: white;
             padding: 20px;
             text-align: center;
