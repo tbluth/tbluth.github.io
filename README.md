@@ -1,4 +1,3 @@
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,13 +6,14 @@
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            color: #f0f0f0;
-            background-color: #1a1d29; 
+            color: #333;
+            background-color: #ffffff;
             margin: 0;
             padding: 0;
+            line-height: 1.6;
         }
         header {
-            background-color: #253a5a; 
+            background-color: #0d47a1; /* Dark blue */
             color: white;
             padding: 20px;
             text-align: center;
@@ -24,13 +24,27 @@
             padding: 20px;
         }
         h1, h2, h3 {
-            color: #d0d3e2;
+            color: #0d47a1; /* Blue */
+            margin-bottom: 10px;
+        }
+        h1 {
+            font-size: 2.5em;
+        }
+        h2 {
+            font-size: 2em;
+        }
+        h3 {
+            font-size: 1.5em;
+        }
+        p {
+            font-size: 1.1em;
         }
         .about, .section {
-            background-color: #2a3244;
+            background-color: #f7f7f7; 
             padding: 20px;
             margin-bottom: 20px;
-            border-radius: 8px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
         }
         .links {
             text-align: center;
@@ -42,10 +56,10 @@
         }
         .icon {
             font-size: 30px;
-            color: #ffffff;
+            color: #0d47a1; 
         }
         a {
-            color: #5aa6f2;
+            color: #0d47a1;
             text-decoration: none;
         }
         a:hover {
@@ -97,7 +111,7 @@
         <p><strong>Master of Science</strong>, Computational Statistics & Machine Learning | September 2024 - September 2025</p>
         <p>Coursework: Supervised and Unsupervised Learning, Deep Learning, Natural Language Processing, Quantitative Finance, Numerical Optimisation, Algorithmic Trading.</p>
 
-<h3>Boston University | Boston, MA, USA</h3>
+ <h3>Boston University | Boston, MA, USA</h3>
         <p><strong>Bachelor of Arts</strong>, Mathematics & Economics | September 2019 - May 2023</p>
         <p>Graduated cum laude (GPA 3.71, UK equivalent: First Class Honours).</p>
         <p>Coursework: Operations Research, Time Series, Econometrics, Financial Markets, Probability, Mathematical Statistics, Data Structures.</p>
@@ -108,7 +122,7 @@
         <p>Coming soon...</p>
     </section>
 
-  <div class="links">
+ <div class="links">
         <a href="https://github.com/tbluth" target="_blank">
             <i class="fab fa-github icon"></i>
         </a>
