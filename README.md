@@ -10,41 +10,44 @@
             background-color: #ffffff;
             margin: 0;
             padding: 0;
-            line-height: 1.6;
         }
         header {
-            background-color: #0d47a1; /* Dark blue */
-            color: white;
             padding: 20px;
             text-align: center;
+            background-color: #f8f8f8;
+            border-bottom: 1px solid #ddd;
+        }
+        h1 {
+            color: #1a73e8; /* Blue header text */
+            margin-bottom: 5px;
+        }
+        p.contact-info {
+            font-size: 14px;
+            color: #666;
+        }
+        p.contact-info a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+        p.contact-info a:hover {
+            text-decoration: underline;
         }
         .container {
             max-width: 900px;
             margin: 0 auto;
             padding: 20px;
         }
-        h1, h2, h3 {
-            color: #0d47a1; /* Blue */
-            margin-bottom: 10px;
+        h2, h3 {
+            color: #1a73e8;
         }
-        h1 {
-            font-size: 2.5em;
-        }
-        h2 {
-            font-size: 2em;
-        }
-        h3 {
-            font-size: 1.5em;
-        }
-        p {
-            font-size: 1.1em;
-        }
-        .about, .section {
-            background-color: #f7f7f7; 
+        .section {
             padding: 20px;
             margin-bottom: 20px;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+            background-color: #f0f0f0;
+            border-radius: 8px;
+        }
+        ul {
+            padding-left: 20px;
         }
         .links {
             text-align: center;
@@ -56,14 +59,7 @@
         }
         .icon {
             font-size: 30px;
-            color: #0d47a1; 
-        }
-        a {
-            color: #0d47a1;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
+            color: #1a73e8;
         }
     </style>
     <!-- Add Font Awesome CDN link here -->
@@ -72,8 +68,8 @@
 <body>
 
 <header>
-     <h1>Trevor Bluth</h1>
-    <p>London, UK  •  +44 7435 256049  •  <a href="mailto:Trevorbluth4@gmail.com">Trevorbluth4@gmail.com</a>  •  <a href="https://www.linkedin.com/in/trevorjbluth/">LinkedIn</a></p>
+    <h1>Trevor Bluth</h1>
+    <p class="contact-info">London, UK  •  +44 7435 256049  •  <a href="mailto:Trevorbluth4@gmail.com">Trevorbluth4@gmail.com</a>  •  <a href="https://www.linkedin.com/in/trevorjbluth/" target="_blank">LinkedIn</a></p>
 </header>
 
 <div class="container">
@@ -82,7 +78,7 @@
         <p>I am currently pursuing an MSc in Computational Statistics & Machine Learning at University College London (UCL). I graduated cum laude from Boston University with a BA in Mathematics and Economics. I aspire to work as a data scientist in the fintech sector, with a passion for applying data-driven insights to solve financial problems.</p>
     </section>
 
-   <section class="section">
+ <section class="section">
         <h2>Employment History</h2>
         <h3>The Village Bank | Newton, MA, USA</h3>
         <p><strong>Data Analytics Associate</strong> | October 2023 - September 2024</p>
@@ -105,24 +101,24 @@
         </ul>
     </section>
 
-   <section class="section">
+ <section class="section">
         <h2>Education</h2>
         <h3>University College London | London, UK</h3>
         <p><strong>Master of Science</strong>, Computational Statistics & Machine Learning | September 2024 - September 2025</p>
         <p>Coursework: Supervised and Unsupervised Learning, Deep Learning, Natural Language Processing, Quantitative Finance, Numerical Optimisation, Algorithmic Trading.</p>
 
- <h3>Boston University | Boston, MA, USA</h3>
+  <h3>Boston University | Boston, MA, USA</h3>
         <p><strong>Bachelor of Arts</strong>, Mathematics & Economics | September 2019 - May 2023</p>
         <p>Graduated cum laude (GPA 3.71, UK equivalent: First Class Honours).</p>
         <p>Coursework: Operations Research, Time Series, Econometrics, Financial Markets, Probability, Mathematical Statistics, Data Structures.</p>
     </section>
 
-   <section class="section">
+ <section class="section">
         <h2>Portfolio</h2>
         <p>Coming soon...</p>
     </section>
 
- <div class="links">
+  <div class="links">
         <a href="https://github.com/tbluth" target="_blank">
             <i class="fab fa-github icon"></i>
         </a>
